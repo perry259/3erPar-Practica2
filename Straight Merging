@@ -1,0 +1,16 @@
+#include <fstream>
+using namespace std;
+
+int main() {
+
+    ifstream archivoEntrada("datos.txt");
+    ofstream archivoSalida("resultado.txt");
+
+    // Leer bloques del archivo
+    // Ordenarlos en memoria
+    // Escribirlos nuevamente
+    // Fusionar bloques de forma secuencial
+
+    archivoEntrada.close();
+    archivoSalida.close();
+}
